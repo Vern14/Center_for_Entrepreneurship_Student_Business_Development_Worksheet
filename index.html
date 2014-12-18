@@ -181,17 +181,31 @@
 		
 	
 <style>
-	span{color: white; }
-	body{background: #040404;}
-	textarea{border: 1px solid steelblue; width: 600px; max-width: 600px; font-family: "Times New Roman", Times, serif; resize: none;}
-	#btn{align:left; background: ghostwhite; color: black;  width: 60px; height: 25px; border: 1px solid steelblue; }
-	form{width: 650px; background: steelblue; padding: 100px; align:center;  padding-left: 70px; text-align: left; }
-	h1{color: white; text-align: center;}
+	span{color: royalblue; }
+	body{background:#E3E3E3;}
+	textarea{border: 1px solid	#D6D6D6; width: 100%; font-family: "Times New Roman", Times, serif; resize: none;}
+	#btn{align:left; background: 	#B0B0B0; color: black;  width: 60px; height: 25px; border: 1px solid #939393; }
+	form{position: relative; width: 55%; background:white; padding: 100px; align:center;  padding-top: 0px; text-align: left; bottom:13px; border-top: 1px solid #F8F8F8; }
+	h1{color: whit; text-align: center;}
 	ol,h3{text-align: left;}
+	.banner{
+    position: absolute;
+background: #F8F8F8;
+	border-radius: 0px;
+
+	
+	
+	margin-left:-7px;
+	padding: 7px;
+	margin-top: -10px;
+
+	width:98.8%;
+	text-align: center;
+}
 	@media print {
 		form,body,input {
 			background: white;
-		
+		    width:100%;
 			border: 1px solid white;
 			}
 		h1{color: black; text-align: center;}
@@ -201,23 +215,30 @@
 					border:20px solid white;
 					color: black;
 					font-family: "Times New Roman", Times, serif;
-				
+				width:100%;
 				}
 		span,li{font-weight: bold;}
 		
 	
 	}
 	
+
+
+
 </style>
+
 </head>	
 
 <body>
 
 <center>
+<div class="banner">
+The College of Wooster     
+</div><br><br>
 
 <form action="demo_form.asp">
 <h1>Center For Entrepreneurship<br>Student Business Development Worksheet</h1>
-<p>Note: Answer all of the questions that are in white before you begin the official experience of starting your business.  Keep notes during the experience.  At the end of the experience, answer all of the questions in black.  This serves as a final report.</p>
+<p>Note: Answer all of the questions that are in blue before you begin the official experience of starting your business.  Keep notes during the experience.  At the end of the experience, answer all of the questions in black.  This serves as a final report.</p>
 <h3>Problem </h3>
 <ol>
 <li><span>State the Problem that you are solving with your business:</span><br><textarea id="textarea"></textarea></li>
